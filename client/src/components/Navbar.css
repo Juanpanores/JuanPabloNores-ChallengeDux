@@ -1,0 +1,23 @@
+:root {
+  --navbar-background: #0763e7;
+}
+
+.navbar-container {
+  background-color: var(--navbar-background);
+  border-color: var(--navbar-background);
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.navbar-logo {
+  height: 40px;
+}
+
+.navbar-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
