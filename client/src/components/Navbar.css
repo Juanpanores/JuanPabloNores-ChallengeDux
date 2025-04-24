@@ -1,3 +1,9 @@
+@import 'primeflex/primeflex.scss';
+
+.mybutton {
+    @include styleclass('bg-blue-500 hover:bg-blue-600 border-round transition-colors transition-duration-150 p-3 border-none');
+}
+
 :root {
   --navbar-background: #0763e7;
 }
@@ -5,10 +11,6 @@
 .navbar-container {
   background-color: var(--navbar-background);
   border-color: var(--navbar-background);
-  display: flex;
-  height: 45px;
-  justify-content: space-between;
-  align-items: center;
   padding: 0 1rem;
 }
 
