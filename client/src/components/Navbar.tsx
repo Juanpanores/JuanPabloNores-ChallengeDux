@@ -1,26 +1,27 @@
 import React from "react";
 import { Menubar } from "primereact/menubar";
 import { Image } from "primereact/image";
+import "primeicons/primeicons.css";
 import './Navbar.css'
-
 
 export default function Navbar() {
   const start = (
     <Image
       src="/images/logo.png"
       alt="logo"
-      className="h-3rem" /* PrimeFlex class for height */
+      className="h-3rem"
     />
   );
 
   const end = (
     <i
-      className="pi pi-cog text-white text-2xl" /* PrimeFlex classes for color and size */
+      className="pi pi-cog text-white"
+      style={{ fontSize: "24px", width: "24px", height: "24px" }}
     />
   );
 
   return (
-    <div className="bg-blue-500 h-4rem"> {/* Asegúrate de que la altura esté definida */}
+    <div className="bg-blue-500 h-4rem">
       <Menubar
         model={[]}
         start={start}
