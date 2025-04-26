@@ -1,25 +1,10 @@
-@import 'primeflex/primeflex.scss';
-
-.mybutton {
-    @include styleclass('bg-blue-500 hover:bg-blue-600 border-round transition-colors transition-duration-150 p-3 border-none');
-}
-
-:root {
-  --navbar-background: #0763e7;
-}
-
-.navbar-container {
-  background-color: var(--navbar-background);
-  border-color: var(--navbar-background);
-  padding: 0 1rem;
-}
-
-.navbar-logo {
-  height: 40px;
-}
-
-.navbar-icon {
-  font-size: 1.5rem;
-  color: white;
+.custom-menubar {
+  background-color: #0763E7; 
+  border: none;
+  padding: 0 1rem; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0px;
 }
 
