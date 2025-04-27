@@ -1,9 +1,12 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
+import Sidebar from "@/components/SideBar/Sidebar";
 import styles from "./page.module.css";
+
 export default function Home() {
   return (
     <>
-      <Navbar /> {/* Add the Navbar component */}
+      <Navbar />
+      <Sidebar />
       <div className={styles.page}>
         
       </div>
