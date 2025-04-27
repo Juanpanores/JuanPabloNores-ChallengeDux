@@ -1,6 +1,7 @@
 import React from "react";
 import { Image } from "primereact/image";
 import "primeflex/primeflex.css";
+import "./Sidebar.css"; // Import the CSS file
 
 export default function Sidebar() {
   const sidebarItems = [
@@ -13,7 +14,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <div className="flex flex-column align-items-center bg-gray-900 h-screen w-5rem p-3 gap-3">
+    <div className="custom-sidebar">
       {sidebarItems.map((item, index) => (
         <div
           className="flex justify-content-center align-items-center cursor-pointer w-2rem h-2rem"
